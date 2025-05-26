@@ -38,7 +38,9 @@ PUT /tasks/{id}
 📌 Deletar Tarefa
 DELETE /tasks/{id}
 
-**🧾 Configuração do Banco de Dados**
+---
+
+## 🧾 Configuração do Banco de Dados
 No arquivo application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/taskmanager
@@ -48,11 +50,11 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 
-**💡 Certifique-se de que o banco taskmanager foi criado no seu MySQL.**
+## 💡 Certifique-se de que o banco taskmanager foi criado no seu MySQL.
 
 ---
 
-**▶️ Como Executar**
+## ▶️ Como Executar.
 
 Clone o repositório:
 
@@ -65,7 +67,6 @@ Execute a aplicação a partir da classe TaskManagerFaculdadeApplication.
 
 ---
 
-🧪 Testes com Postman
-Você pode testar todos os endpoints utilizando o Postman.
+## 🧪 Testes com Postman
 
 [API REST Trabalho Faculdade.postman_collection.json](https://github.com/user-attachments/files/20445197/API.REST.Trabalho.Faculdade.postman_collection.json)
